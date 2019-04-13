@@ -1,0 +1,9 @@
+<div class="form-inline input-group mt-3">
+    <ng2-completer [(ngModel)]="searchStr" [datasource]="dataService" [minSearchLength]="3" inputClass="form-control" [placeholder]="'Search User'"
+      [textSearching]="'Loading...'" (selected)="search()"></ng2-completer>
+    <div class="input-group-append">
+      <button (click)="search()" class="btn btn-md btn-rounded btn-mdb-color waves-effect m-0 dusty-grass-gradient" type="button" mdbWavesEffect>
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>

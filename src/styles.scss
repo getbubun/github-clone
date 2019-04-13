@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    font-family: 'Montserrat';
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.form-control {
+    border-top-left-radius: 5em !important;
+    border-bottom-left-radius: 5em !important;
+  }
+  
+  .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #002cf1;
+}
