@@ -21,7 +21,7 @@
     "@angular/router": "~7.2.0",
     "@types/auth0-js": "^8.11.12",
     "angular-bootstrap-md": "^7.4.4",
-    "auth0-js": "^9.10.1",
+    "auth0-js": "^9.13.2",
     "chart.js": "^2.5.0",
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
